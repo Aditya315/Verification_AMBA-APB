@@ -41,7 +41,7 @@
  **PRESETn:** Connected directly to System bus. The APB reset signal is active [LOW](#LOW).  
  **PADDR:** 32 bit address bus and is driven by thr peripheral bus bridge unit. 
  **PENABLE:** This signal indicates the second and subsequent cycles of an APB transfer.
- **PSEL:** Select, the APB bridge unit generates this signal to each peripheral bus slave. It indicates that, slave device is selected and transfer is required. There is a PSEL for each slave. 
+ **PSEL:** Select, the APB bridge unit generates this signal to each peripheral bus slave. Slave device is selected and transfer is required.
  **PWRITE:**  APB write enables when [HIGH](#HIGH) and APB read enables when [LOW](#LOW).    
  **PWDATA:**  32 bits Write data, driven by peripheral bus bridge unit during write cycle when PWRITE is [HIGH](#HIGH).     
  **PREADY:**  Ready To extend an APB transfer.    
