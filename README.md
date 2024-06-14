@@ -7,9 +7,9 @@
 
 # Table of Contents 
 - [Introduction of AMBA](#Introduction-of-AMBA)  
-- [APB Specification](#APB_Specification)
-  * [APB Interface Diagram](#APB_Interface_Diagram)
-  * [APB Signal Description](#APB_Signal_Description)
+- [APB Specification](#APB-Specification)
+  * [APB Interface Diagram](#APB-Interface-Diagram)
+  * [APB Signal Description](#APB-Signal-Description)
   * [APB State Diagram](#APB_State_Diagram)
   * [APB Operating States](#APB_Operating_States)
     * [Write transfer](#Write_transfer)
@@ -26,3 +26,12 @@
 
     ![Alt](Images/image1.png)
 
+# APB Specification
+- A low-cost interface, optimized for minimal power consumption and reduced interface complexity.
+- The APB interface is not pipelined and is a simple, synchronous protocol. Every transfer takes at least two cycles to complete.
+- APB peripherals are typically connected to the main memory system using an APB bridge.
+## APB Interface Diagram
+
+  ![Alt](Images/image2.jpg)
+
+## APB Signal Description
