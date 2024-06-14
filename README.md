@@ -10,7 +10,7 @@
 - [APB Specification](#APB-Specification)
   * [APB Interface Diagram](#APB-Interface-Diagram)
   * [APB Signal Description](#APB-Signal-Description)
-  * [APB State Diagram](#APB_State_Diagram)
+  * [APB State Diagram](#APB-State-Diagram)
   * [APB Operating States](#APB_Operating_States)
     * [Write transfer](#Write_transfer)
     * [Read transfer](#Read_transfer)
@@ -46,3 +46,9 @@
  **PWDATA:**  32 bits Write data, driven by peripheral bus bridge unit during write cycle when PWRITE is [HIGH](#HIGH).     
  **PREADY:**  Ready To extend an APB transfer.    
  **PRDATA:**  32 bits Read data during read cycle when PWRITE is [LOW](#LOW).   
+
+## APB State Diagram
+
+   ![Alt](Images/image3.png)
+
+   
