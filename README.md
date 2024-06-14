@@ -31,7 +31,8 @@
 - The APB interface is not pipelined and is a simple, synchronous protocol. Every transfer takes at least two cycles to complete.
 - APB peripherals are typically connected to the main memory system using an APB bridge.
 ## APB Interface Diagram
+- Simple Interface diagram of APB Slave
 
-  ![Alt](Images/image2.jpg)
+  ![Alt](Images/image2.png)
 
 ## APB Signal Description
