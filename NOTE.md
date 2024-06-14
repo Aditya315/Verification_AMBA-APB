@@ -9,5 +9,4 @@
 
     ![ALT](Images/image7.png)
 
-
-
+## All inputs and outputs are sampled at ``positive edge`` of a clock pulse.
