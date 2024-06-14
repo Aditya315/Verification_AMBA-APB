@@ -19,3 +19,10 @@
 -  [Conclusion](#Conclusion)
 - [Acknowledgement](#Acknowledgement)
 - [References](#References)
+
+# [Introduction of AMBA](#Introduction-of-AMBA)
+- An AMBA-based microcontroller consists of high-performance system backbone bus, which is able to sustain the external memory bandwidth, on which the High-performance ARM processor and DMA devices reside, along with a bridge to narrower APB bus. The APB protocol is designed to connect low-bandwidth peripherals to the main system bus.
+
+
+    ![Alt](Images/image1.png)
+
