@@ -89,3 +89,4 @@ The ENABLE state only lasts for a single clock cycle and after that, the bus wil
   
 # Testplan    
 
+   ![Alt](Images/testbench.png)    
