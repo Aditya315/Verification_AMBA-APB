@@ -79,7 +79,7 @@ The ENABLE state only lasts for a single clock cycle and after that, the bus wil
   **T2 Clock Cycle:** SETUP state, while PWRITE = LOW, PSEL = HIGH, PENABLE = LOW.     
   **T3 Clock Cycle:** ENABLE state, while PWRITE = LOW, PSEL = HIGH, PENABLE = HIGH, the very same PADDR of Write transfer ENABLE state is driven.
   **T4 Clock Cycle:** IDLE state, while PWRITE = LOW, PSEL = LOW, PENABLE = LOW.    
-  ** The output data ``PRDATA`` is sampled on the rising edge of clock at the end of the ``ENABLE`` cycle.
+  * The output data ``PRDATA`` is sampled on the rising edge of clock at the end of the ``ENABLE`` cycle.
   
 
 
