@@ -58,3 +58,14 @@
 **SETUP:**  When a transfer is required the bus moves into the SETUP state, where the appropriate select signal, **PSEL**, is asserted. The bus only remains in the SETUP state for one clock cycle and always moves to the ENABLE state on the next rising edge of the clock.                       
 **ENABLE:** The enable signal, **PENABLE**, is asserted in the ENABLE state. The address, write, select, and write data signals must remain stable during the transition from the SETUP to ACCESS state.
 The ENABLE state only lasts for a single clock cycle and after that, the bus will return to the IDLE state if no further trensfers are required. Alterntively, if another transfer is to followthen the bus will move directly to the SETUP state.
+
+### Write Transfer
+
+
+  ![Alt](Images/image4.png)
+
+
+### Read Transfer
+
+
+  ![Alt](Images/image5.png)
